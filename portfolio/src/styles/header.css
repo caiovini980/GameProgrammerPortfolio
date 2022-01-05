@@ -1,0 +1,49 @@
+#page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    height: 4vw;
+    align-items: center;
+}
+
+#name-area {
+    display: flex;
+    flex: 2;
+}
+
+#buttons-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 3;
+    height: 100%;
+}
+
+button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D2247;
+    border-style: none;
+}
+
+strong {
+    color: #E67E22;
+    font: 400 16px 'Nunito', sans-seriff;
+}
+
+button {
+    font: 400 20px 'Nunito', sans-seriff;
+    color: #f4f4f4;
+}
+
+button:hover {
+    color: #E67E22;
+    cursor: pointer;
+}
+
+button::after {
+    background-color: #4f4f4f
+}
