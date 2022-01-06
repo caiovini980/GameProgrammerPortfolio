@@ -9,13 +9,14 @@
     border-top: 3px solid #151933;
 }
 
+.nameTitle {
+    font: 400 50px 'Concert One', sans-seriff;
+    color: #E67E22;
+}
+
 img {
     width: 25vh;
     border-radius: 120px;
-}
-
-strong {
-    font: 400 50px 'Concert One', sans-seriff;
 }
 
 p {

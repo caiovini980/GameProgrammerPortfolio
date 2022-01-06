@@ -1,4 +1,5 @@
 import { useState } from "react";
+import MUButton from '@mui/material/Button';
 
 type ButtonProperties = {
     text?: string;
@@ -12,12 +13,12 @@ export function Button(properties: ButtonProperties) {
 
     function Increment()
     {
-        SetCounter(counter + 1)
+        SetCounter(counter + 1);
         //counter++;
         console.log(counter);
     }
 
     return (
-        <button onClick = { Increment }> {properties.text} </button>
+        <MUButton variant = "headerButton" onClick = { Increment }> { properties.text } </MUButton>
     )
 }

@@ -1,13 +1,13 @@
-import { Button } from "../atoms/Button";
+import { Button } from "../../atoms/Button";
 
-import "../../styles/header.css";
+import "./header.css";
 
 export function Header()
 {
     return (
         <div id = "page-header">
             <div id = "name-area">
-                {/* <strong>Caio Aguiar</strong> */}
+                 <strong>Caio Aguiar</strong> 
             </div>
 
             <div id = "buttons-area">

@@ -1,5 +1,5 @@
-import { Header } from "../molecules/Header";
-import  { MainPage } from "../molecules/MainPage";
+import { Header } from "../molecules/Header/Index";
+import  { MainPage } from "../molecules/MainPage/Index";
 
 import "../../styles/home.css";
 

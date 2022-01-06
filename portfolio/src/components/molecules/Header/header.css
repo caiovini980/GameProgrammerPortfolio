@@ -30,8 +30,8 @@ button {
 }
 
 strong {
-    color: #E67E22;
-    font: 400 16px 'Nunito', sans-seriff;
+    font: 400 2vw 'Concert One', sans-seriff;
+    color: #f4f4f4;
 }
 
 button {
@@ -42,8 +42,4 @@ button {
 button:hover {
     color: #E67E22;
     cursor: pointer;
-}
-
-button::after {
-    background-color: #4f4f4f
 }
